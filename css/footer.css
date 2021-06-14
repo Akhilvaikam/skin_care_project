@@ -1,0 +1,40 @@
+.footerSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0F2421;
+  padding: 50px 100px;
+}
+.rigthSideFooter {
+  display: flex
+}
+.footerHeader h2 {
+  font-family: SailecRegular;
+  font-size: 88px;
+  color: #FFFFFF;
+}
+.copyRight {
+  font-family: Sailec;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.subLinks .subHedaer h2 {
+  font-family: SailecRegular;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.submenulink ul {
+  list-style-type: none;
+}
+.submenulink ul li {
+  font-family: SailecRegular;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 9px 10px;
+}
+.leftSideFooter {
+  max-width: 380px;
+}

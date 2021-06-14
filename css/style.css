@@ -1,0 +1,28 @@
+@font-face {
+  src: url("../font/Type Dynamic - Sailec Black Italic.otf");
+  src: url("../font/Type Dynamic - Sailec Black.otf");
+  src: url("../font/Type Dynamic - Sailec Bold Italic.otf");
+  src: url("../font/Type Dynamic - Sailec Bold.otf");
+  src: url("../font/Type Dynamic - Sailec Hairline Italic.otf");
+  src: url("../font/Type Dynamic - Sailec Hairline.otf");
+  src: url("../font/Type Dynamic - Sailec Light Italic.otf");
+  src: url("../font/Type Dynamic - Sailec Light.otf");
+  src: url("../font/Type Dynamic - Sailec Medium Italic.otf");
+  src: url("../font/Type Dynamic - Sailec Medium.oft");
+  src: url("../font/Type Dynamic - Sailec Regular Italic.oft");
+  src: url("../font/Type Dynamic - Sailec Thin Italic.otf");
+  src: url("../font/Type Dynamic - Sailec Thin.otf");
+  src: url("../font/Type Dynamic - Sailec.otf");
+}
+@font-face {
+  font-family: SailecNormal;
+  src: url("../font/Type Dynamic - Sailec Medium.oft");
+}
+@font-face {
+  font-family: SailecBold;
+  src: url("../font/Type Dynamic - Sailec Bold.otf");
+}
+@font-face {
+  font-family: SailecRegular;
+  src: url("../font/Type Dynamic - Sailec Light.otf");
+}

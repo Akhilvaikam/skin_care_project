@@ -1,0 +1,80 @@
+.skinCareTitle h2 {
+  font-family: SailecRegular;
+  font-size: 80px;
+  line-height: 120.5%;
+  color: #151442;
+  text-align: center;
+}
+.productBtn button {
+  font-family: Sailec;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 120.5%;
+  color: #151442;
+  border: 1px solid #102421;
+  box-sizing: border-box;
+  border-radius: 31px;
+  width: 168px;
+  height: 61px;
+  background: #fff;
+  margin-left: 50px;
+  padding: 10px 45px;
+  padding-left: 30px;
+  padding-right: 60px;
+}
+.skinCareHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productsList {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+.productName h2 {
+  font-family: SailecRegular;
+  font-size: 36px;
+  line-height: 149.5%;
+  color: #151442;
+  text-align: center;
+}
+.productCost p {
+  font-family: Sailec;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 149.5%;
+  color: #8F9095;
+  text-align: center;
+}
+.productDescription p {
+  font-family: SailecRegular;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 149.5%;
+  color: #8F9095;
+  padding: 0 50px;
+  text-align: center;
+}
+.cardsList {
+  max-width: 300px;
+}
+.productBtn button::after {
+  content: "";
+  background: url("../img/list/vector.png");
+  width: 19px;
+  height: 13px;
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+.productBtn {
+  position: relative;
+}
+.productBtn button:hover {
+  color: #C7E1BF;
+  background: #102522;
+  border: 1px solid #cdcdcd;
+}

@@ -1,0 +1,78 @@
+.bannerSection {
+  display: flex;
+  position: relative;
+}
+.bannerContent {
+  width: 50%;
+}
+.bannerOuterDiv {
+  background: #102421;
+  /*position: absolute;*/
+  width: 880px;
+  height: 700px;
+  /*left: 0px;
+  top: -60px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerName h5 {
+  font-family: SailecRegular;
+  font-size: 14px;
+  line-height: 120.5%;
+  color: #D2D2D2;
+}
+.bannerSubtitle p {
+  font-family: SailecRegular;
+  font-size: 22px;
+  line-height: 120.5%;
+  color: #D2D2D2;
+}
+.bannerHeading h3 {
+  font-family: SailecBold;
+  font-size: 88px;
+  line-height: 88px;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+}
+.btn1 button {
+  background: #C7E1BF;
+  border-radius: 48px;
+  width: 161px;
+  height: 58px;
+  font-family: SailecRegular;
+  font-size: 14px;
+  line-height: 120.5%;
+  color: #102522;
+}
+.btn1 button:hover, .btn2 button:hover {
+  color: #C7E1BF;
+  background: #102522;
+  border: 1px solid #cdcdcd;
+}
+.btn2 button {
+  background: #C7E1BF;
+  border-radius: 48px;
+  width: 161px;
+  height: 58px;
+  font-family: SailecRegular;
+  font-size: 14px;
+  line-height: 120.5%;
+  color: #102522;
+}
+.buttonSection {
+  display: flex;
+}
+.btn1 {
+  margin-right: 52px;
+}
+.bannerDiv {
+  max-width: 500px;
+}
+.bannerImage img {
+  position: absolute;
+  top: 83px;
+  width: 470px;
+  right: 60px;
+}

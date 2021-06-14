@@ -1,0 +1,117 @@
+.bannerImage {
+  background: url("../img/testimonail.png");
+  display: flex;
+}
+.aboutClients h3 {
+  font-family: SailecRegular;
+  font-size: 80px;
+  line-height: 120.5%;
+  color: #fff;
+  padding: 10px 110px;
+}
+.testimonialContent p {
+  font-family: SailecRegular;
+  font-size: 50px;
+  color: #342B42;
+  padding: 30px 25px;
+}
+.authorName p {
+  font-family: Sailec;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: #454545;
+  padding: 5px 25px;
+  text-align: right;
+  padding-bottom: 0;
+}
+.authorPoistion p {
+  font-family: Sailec;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #454545;
+  padding: 5px 25px;
+  text-align: right;
+  padding-top: 0px;
+  margin-top: 0;
+  padding-bottom: 45px;
+}
+.bannerContentLeft {
+  width: 875px;
+}
+.bannerContentRight {
+  width: calc(100% - 875px);
+  padding-bottom: 70px;
+}
+.testimonialDiv {
+  max-width: 500px;
+  background: #FFF3F3;
+  margin-right: 70px;
+}
+.testimonialContent p::after {
+  content: "";
+  background: url("../img/backward.png");
+  width: 44px;
+  height: 34px;
+  display: inline-block;
+}
+.testimonialContent p::before {
+  content: "";
+  background: url("../img/forward.png");
+  width: 44px;
+  height: 34px;
+  display: inline-block;
+}
+.benfitsBlock {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.benfitsBlock .block {
+  max-width: 300px;
+  margin: 10px 40px;
+}
+.ourBenfitsHead h2 {
+  font-family: Sailec;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 120.5%;
+  color: #151442;
+  text-align: center;
+}
+.blockContent p {
+  font-family: SailecRegular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #151442;
+}
+.ourBenfits {
+  padding-bottom: 70px;
+}
+.productsList.owl-carousel .owl-nav {
+  position: absolute;
+  top: 29%;
+  right: 17px;
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  border-radius: 50%;
+}
+.brandedProducts {
+  padding-left: 100px;
+}
+.ourBenfitsHead h2 {
+  font-family: SailecRegular;
+}
+.brandedProducts .owl-next span {
+  position: absolute;
+  top: -14px ! important;
+  right: 8px ! important;
+}
+.brandedProducts .owl-next {
+  font-size: 46px ! important;
+}
